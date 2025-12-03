@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amina Khanom Shorna - Front End Developer</title>
+    <script src="/_sdk/element_sdk.js"></script>
+    <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+    <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            AKS
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle"><span></span> <span></span> <span></span>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hello, I'm <span id="heroName">Amina Khanom Shorna</span></h1>
+                <div class="typing-text" id="typingText"></div>
+                <p id="heroLocation">Front End Web Developer from Bangladesh</p>
+                <div class="hero-buttons"><a href="#contact" class="btn btn-primary">Download CV</a> <a href="#contact"
+                        class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <svg class="avatar" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Background Circle -->
+                    <circle cx="200" cy="200" r="180" fill="#FFE5E5" /> <!-- Body -->
+                    <ellipse cx="200" cy="320" rx="80" ry="100" fill="#6C5CE7" /> <!-- Neck -->
+                    <rect x="180" y="240" width="40" height="40" rx="5" fill="#FDBCB4" /> <!-- Head -->
+                    <circle cx="200" cy="180" r="70" fill="#FDBCB4" /> <!-- Hair -->
+                    <path
+                        d="M 130 180 Q 130 110 200 110 Q 270 110 270 180 Q 270 150 250 140 Q 230 130 200 130 Q 170 130 150 140 Q 130 150 130 180"
+                        fill="#2C3E50" />
+                    <ellipse cx="200" cy="120" rx="70" ry="40" fill="#2C3E50" /> <!-- Eyes -->
+                    <circle cx="175" cy="175" r="8" fill="#2C3E50" />
+                    <circle cx="225" cy="175" r="8" fill="#2C3E50" />
+                    <circle cx="177" cy="173" r="3" fill="white" />
+                    <circle cx="227" cy="173" r="3" fill="white" /> <!-- Eyebrows -->
+                    <path d="M 165 160 Q 175 155 185 160" stroke="#2C3E50" stroke-width="3" fill="none"
+                        stroke-linecap="round" />
+                    <path d="M 215 160 Q 225 155 235 160" stroke="#2C3E50" stroke-width="3" fill="none"
+                        stroke-linecap="round" /> <!-- Nose -->
+                    <path d="M 200 185 L 200 200" stroke="#FDBCB4" stroke-width="2" fill="none" />
+                    <circle cx="195" cy="200" r="3" fill="#F8AFA6" />
+                    <circle cx="205" cy="200" r="3" fill="#F8AFA6" /> <!-- Smile -->
+                    <path d="M 180 210 Q 200 220 220 210" stroke="#2C3E50" stroke-width="3" fill="none"
+                        stroke-linecap="round" /> <!-- Laptop -->
+                    <rect x="140" y="280" width="120" height="80" rx="5" fill="#34495E" />
+                    <rect x="145" y="285" width="110" height="60" fill="#A8E6CF" />
+                    <line x1="145" y1="295" x2="255" y2="295" stroke="#81C784" stroke-width="2" />
+                    <line x1="145" y1="305" x2="235" y2="305" stroke="#81C784" stroke-width="2" />
+                    <line x1="145" y1="315" x2="245" y2="315" stroke="#81C784" stroke-width="2" /> <!-- Arms -->
+                    <ellipse cx="140" cy="300" rx="15" ry="40" fill="#FDBCB4" transform="rotate(-20 140 300)" />
+                    <ellipse cx="260" cy="300" rx="15" ry="40" fill="#FDBCB4" transform="rotate(20 260 300)" />
+                    <!-- Decorative Elements -->
+                    <circle cx="80" cy="100" r="15" fill="#FFD93D" opacity="0.6" />
+                    <circle cx="320" cy="120" r="20" fill="#6C5CE7" opacity="0.4" />
+                    <circle cx="90" cy="300" r="12" fill="#FF6B9D" opacity="0.5" />
+                    <circle cx="310" cy="280" r="18" fill="#4ECDC4" opacity="0.5" />
+                </svg>
+            </div>
+        </div>
+    </section><!-- About Section -->
+    <section class="about fade-in" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <svg viewbox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Code Editor Illustration -->
+                    <rect x="20" y="40" width="260" height="200" rx="10" fill="#2C3E50" />
+                    <rect x="30" y="50" width="240" height="180" fill="#1E272E" /> <!-- Window Buttons -->
+                    <circle cx="45" cy="65" r="5" fill="#FF5F56" />
+                    <circle cx="65" cy="65" r="5" fill="#FFBD2E" />
+                    <circle cx="85" cy="65" r="5" fill="#27C93F" /> <!-- Code Lines -->
+                    <line x1="45" y1="90" x2="120" y2="90" stroke="#FF6B9D" stroke-width="3" stroke-linecap="round" />
+                    <line x1="55" y1="105" x2="180" y2="105" stroke="#4ECDC4" stroke-width="3" stroke-linecap="round" />
+                    <line x1="55" y1="120" x2="160" y2="120" stroke="#FFD93D" stroke-width="3" stroke-linecap="round" />
+                    <line x1="45" y1="135" x2="200" y2="135" stroke="#6C5CE7" stroke-width="3" stroke-linecap="round" />
+                    <line x1="55" y1="150" x2="140" y2="150" stroke="#4ECDC4" stroke-width="3" stroke-linecap="round" />
+                    <line x1="55" y1="165" x2="190" y2="165" stroke="#FF6B9D" stroke-width="3" stroke-linecap="round" />
+                    <line x1="45" y1="180" x2="170" y2="180" stroke="#FFD93D" stroke-width="3" stroke-linecap="round" />
+                    <!-- Cursor -->
+                    <rect x="205" y="133" width="3" height="12" fill="#27C93F">
+                        <animate attributename="opacity" values="1;0;1" dur="1s" repeatcount="indefinite" />
+                    </rect>
+                </svg>
+            </div>
+            <div class="about-text">
+                <h3>Front End Web Developer</h3>
+                <p id="aboutText">I am a passionate Front-End Web Developer specializing in creating responsive, modern
+                    and interactive websites using HTML, CSS and JavaScript. I love building user-friendly web
+                    interfaces and improving user experience through design and performance optimization.</p>
+                <ul class="info-list">
+                    <li><strong>📧 Email:</strong> <span id="aboutEmail">aminakhanomsorna02@gmail.com</span></li>
+                    <li><strong>📍 Location:</strong> <span id="aboutAddress">Shapla Chattar, Rangpur, Bangladesh</span>
+                    </li>
+                    <li><strong>💼 Position:</strong> <span>Front End Developer</span></li>
+                    <li><strong>🎓 Education:</strong> <span>Diploma in Computer</span></li>
+                </ul>
+            </div>
+        </div>
+    </section><!-- Skills Section -->
+    <section class="skills fade-in" id="skills">
+        <h2 class="section-title">Skills &amp; Services</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    🌐
+                </div>
+                <h3>HTML5</h3>
+                <p>Semantic &amp; Accessible</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-progress="95"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    🎨
+                </div>
+                <h3>CSS3</h3>
+                <p>Modern Styling &amp; Animation</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-progress="90"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    ⚡
+                </div>
+                <h3>JavaScript</h3>
+                <p>Interactive &amp; Dynamic</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-progress="85"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    📦
+                </div>
+                <h3>Bootstrap</h3>
+                <p>Rapid Development</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-progress="88"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    📱
+                </div>
+                <h3>Responsive Design</h3>
+                <p>Mobile-First Approach</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-progress="93"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    📝
+                </div>
+                <h3>WordPress</h3>
+                <p>Customization &amp; Themes</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" data-progress="80"></div>
+                </div>
+            </div>
+        </div>
+    </section><!-- Education Section -->
+    <section class="education fade-in" id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-timeline">
+            <div class="timeline-item">
+                <div class="timeline-content"><span class="year">2021 - 2022</span>
+                    <h3>Diploma in Computer</h3>
+                    <p><strong>Rangpur Polytechnic Institute (RPI)</strong></p>
+                    <p>Specialized in computer science fundamentals, programming, web development, and software
+                        engineering principles.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content"><span class="year">2021</span>
+                    <h3>Secondary School Certificate (SSC)</h3>
+                    <p><strong>(CSCR)</strong></p>
+                    <p>Completed secondary education with focus on science and mathematics, building a strong foundation
+                        for technical studies.</p>
+                </div>
+            </div>
+        </div>
+    </section><!-- Portfolio Section -->
+    <section class="portfolio fade-in" id="portfolio">
+        <h2 class="section-title">My Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    🌐
+                </div>
+                <div class="portfolio-info">
+                    <h3>Portfolio Website</h3>
+                    <p>Modern and responsive personal portfolio showcasing projects and skills with smooth animations.
+                    </p><a href="#" class="portfolio-btn">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    🛒
+                </div>
+                <div class="portfolio-info">
+                    <h3>E-commerce UI</h3>
+                    <p>Clean and intuitive online shopping interface with product catalog and checkout flow.</p><a
+                        href="#" class="portfolio-btn">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    🚀
+                </div>
+                <div class="portfolio-info">
+                    <h3>Landing Page Design</h3>
+                    <p>Conversion-focused landing page with eye-catching design and clear call-to-actions.</p><a
+                        href="#" class="portfolio-btn">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    📝
+                </div>
+                <div class="portfolio-info">
+                    <h3>Blogging Website</h3>
+                    <p>Feature-rich blog platform with article management and responsive layout design.</p><a href="#"
+                        class="portfolio-btn">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    🍕
+                </div>
+                <div class="portfolio-info">
+                    <h3>Restaurant Website</h3>
+                    <p>Elegant restaurant site with menu display, gallery, and online reservation system.</p><a href="#"
+                        class="portfolio-btn">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    💼
+                </div>
+                <div class="portfolio-info">
+                    <h3>Business Website</h3>
+                    <p>Professional corporate website with services showcase and contact functionality.</p><a href="#"
+                        class="portfolio-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section><!-- Contact Section -->
+    <section class="contact fade-in" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        📧
+                    </div>
+                    <div><strong>Email</strong>
+                        <p id="contactEmail">aminakhanomsorna02@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        📍
+                    </div>
+                    <div><strong>Address</strong>
+                        <p id="contactAddress">Shapla Chattar, Rangpur, Bangladesh</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        💼
+                    </div>
+                    <div><strong>Open for Work</strong>
+                        <p>Available for freelance projects</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group"><label for="name">Your Name</label> <input type="text" id="name" name="name"
+                        required>
+                </div>
+                <div class="form-group"><label for="email">Your Email</label> <input type="email" id="email"
+                        name="email" required>
+                </div>
+                <div class="form-group"><label for="message">Your Message</label> <textarea id="message" name="message"
+                        required></textarea>
+                </div><button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section><!-- Footer -->
+    <footer>
+        <p>© 2025 Amina Khanom Shorna. All Rights Reserved.</p>
+        <p>Designed &amp; Developed with ❤️</p>
+        <div class="social-links"><a href="#" aria-label="Facebook">📘</a> <a href="#" aria-label="LinkedIn">💼</a> <a
+                href="#" aria-label="GitHub">💻</a> <a href="#" aria-label="Twitter">🐦</a>
+        </div>
+    </footer><!-- Scroll to Top Button --> <button class="scroll-top" id="scrollTop"
+        aria-label="Scroll to top">↑</button>
+   <script src="script.js"></script>
+</body>
+
+</html>
